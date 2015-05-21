@@ -1,7 +1,5 @@
 box: wercker/default
-# Build definition
 build:
-  # The steps that will be executed on build
   steps:
     - arjen/hugo-build:
         version: 0.13
